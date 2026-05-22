@@ -1,0 +1,25 @@
+# Worker internals — never commit to GitHub
+pid
+role
+worker.log
+SPEC.txt
+TASK.txt
+
+# Proposal files — Winning Strategy: MinIO only, NOT GitHub
+PROPOSAL.md
+COVER_LETTER.txt
+
+# Dependencies and build artifacts
+node_modules/
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
